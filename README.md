@@ -34,6 +34,7 @@ section{padding:110px 0}
 .eyebrow::before{content:"";width:26px;height:1.5px;background:var(--green)}
 h2.title{font-family:var(--serif);font-size:clamp(28px,4vw,40px);font-weight:600;line-height:1.35;letter-spacing:-.01em}
 p.lead{margin-top:16px;color:var(--gray);font-size:17px;max-width:640px}
+
 /* ---------- Nav ---------- */
 header{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,.86);backdrop-filter:blur(14px);border-bottom:1px solid transparent;transition:border-color .3s}
 header.scrolled{border-bottom-color:var(--line)}
@@ -51,10 +52,11 @@ header.scrolled{border-bottom-color:var(--line)}
 .btn-ghost:hover{border-color:var(--ink)}
 .nav .btn{padding:10px 20px;font-size:14px}
 .menu-toggle{display:none;background:none;border:none;font-size:26px;cursor:pointer;color:var(--ink)}
-/* ---------- Hero ---------- /
+
+/* ---------- Hero ---------- */
 .hero{padding:190px 0 90px;background:
-radial-gradient(1100px 500px at 85% -10%, var(--green-soft), transparent 65%),
-var(--paper)}
+  radial-gradient(1100px 500px at 85% -10%, var(--green-soft), transparent 65%),
+  var(--paper)}
 .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center}
 .hero h1{font-family:var(--serif);font-size:clamp(34px,5vw,54px);font-weight:600;line-height:1.32;letter-spacing:-.015em}
 .hero h1 .hl{position:relative;white-space:nowrap}
@@ -62,7 +64,7 @@ var(--paper)}
 @keyframes sweep{to{transform:scaleX(1)}}
 .hero p{margin:24px 0 36px;font-size:18px;color:var(--gray);max-width:520px}
 .hero-cta{display:flex;gap:14px;flex-wrap:wrap}
-/ signature: HRD value chain rail */
+/* signature: HRD value chain rail */
 .chain{background:var(--ink);border-radius:var(--radius);padding:38px 34px;color:#fff;box-shadow:0 30px 60px rgba(20,33,27,.22)}
 .chain h3{font-size:13px;font-weight:700;letter-spacing:.16em;color:var(--gold);margin-bottom:26px}
 .chain ol{list-style:none;position:relative}
@@ -73,6 +75,7 @@ var(--paper)}
 .chain li:hover::before{background:var(--green)}
 .chain strong{display:block;font-size:17px;font-weight:700}
 .chain span{font-size:14px;color:rgba(255,255,255,.65)}
+
 /* ---------- About ---------- */
 .about{background:var(--mist)}
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;margin-top:56px}
@@ -88,6 +91,7 @@ var(--paper)}
 .ceo blockquote::before{content:"“";display:block;font-size:54px;color:var(--gold);line-height:.6;margin-bottom:14px}
 .ceo footer{margin-top:26px;font-size:14px;color:var(--gray)}
 .ceo footer b{color:var(--ink);font-size:15px}
+
 /* ---------- Services ---------- */
 .svc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:56px}
 .svc{border:1px solid var(--line);border-radius:var(--radius);padding:36px 34px;position:relative;overflow:hidden;transition:border-color .25s,transform .25s}
@@ -97,6 +101,7 @@ var(--paper)}
 .svc>p{font-size:15px;color:var(--gray);margin-bottom:18px}
 .tags{display:flex;flex-wrap:wrap;gap:8px}
 .tags li{font-size:12.5px;font-weight:600;color:var(--green);background:var(--green-soft);padding:6px 12px;border-radius:999px}
+
 /* ---------- Programs ---------- */
 .programs{background:var(--ink);color:#fff}
 .programs .eyebrow{color:var(--gold)}
@@ -114,6 +119,7 @@ var(--paper)}
 .prog p{font-size:14px;color:rgba(255,255,255,.6);margin-bottom:16px}
 .prog .meta{display:flex;gap:14px;font-size:12.5px;color:rgba(255,255,255,.5)}
 .prog .badge{display:inline-block;margin-top:14px;font-size:11.5px;font-weight:700;color:var(--ink);background:var(--gold);padding:4px 10px;border-radius:6px}
+
 /* ---------- Cases ---------- */
 .case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:56px}
 .case{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:box-shadow .25s,transform .25s}
@@ -129,6 +135,7 @@ var(--paper)}
 .quote-band{margin-top:64px;background:var(--mist);border-radius:var(--radius);padding:48px;text-align:center}
 .quote-band blockquote{font-family:var(--serif);font-size:clamp(18px,2.4vw,23px);font-weight:500;max-width:760px;margin:0 auto;line-height:1.7}
 .quote-band footer{margin-top:18px;font-size:14px;color:var(--gray)}
+
 /* ---------- Insights ---------- */
 .insight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:56px}
 .post{border-bottom:1px solid var(--line);padding-bottom:24px;transition:opacity .2s}
@@ -137,6 +144,7 @@ var(--paper)}
 .post h4{font-size:18px;font-weight:700;margin:10px 0;line-height:1.5;transition:color .2s}
 .post p{font-size:14px;color:var(--gray)}
 .post .more{display:inline-block;margin-top:14px;font-size:13.5px;font-weight:700;color:var(--green)}
+
 /* ---------- Contact ---------- */
 .contact{background:linear-gradient(160deg,var(--green-deep),var(--green));color:#fff}
 .contact-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:70px;align-items:start}
@@ -150,6 +158,7 @@ var(--paper)}
 .form-fallback{padding:14px 10px 8px;text-align:center;font-size:13px;color:var(--gray)}
 .form-fallback a{color:var(--green);font-weight:700;text-decoration:underline}
 .contact .open-form{margin-top:28px}
+
 /* ---------- Footer ---------- */
 footer.site{background:var(--ink);color:rgba(255,255,255,.55);padding:56px 0;font-size:13.5px}
 footer.site .top{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;padding-bottom:30px;border-bottom:1px solid rgba(255,255,255,.12);margin-bottom:26px}
@@ -157,35 +166,39 @@ footer.site .logo{color:#fff}
 footer.site nav{display:flex;gap:24px}
 footer.site nav a:hover{color:#fff}
 footer.site .legal{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+
 /* floating CTA */
 .float-cta{position:fixed;right:26px;bottom:26px;z-index:90;box-shadow:0 14px 34px rgba(23,94,67,.4)}
+
 /* reveal on scroll */
 .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
 .reveal.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){
-.reveal{opacity:1;transform:none;transition:none}
-.hero h1 .hl::after{animation:none;transform:scaleX(1)}
-html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+  .hero h1 .hl::after{animation:none;transform:scaleX(1)}
+  html{scroll-behavior:auto}
 }
+
 /* ---------- Responsive ---------- */
 @media(max-width:960px){
-.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}
-.svc-grid{grid-template-columns:1fr}
-.prog-grid,.case-grid,.insight-grid{grid-template-columns:1fr 1fr}
-.nav ul{display:none}
-.menu-toggle{display:block}
-.nav.open ul{display:flex;position:absolute;top:72px;left:0;right:0;background:#fff;flex-direction:column;padding:24px;gap:18px;border-bottom:1px solid var(--line)}
+  .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}
+  .svc-grid{grid-template-columns:1fr}
+  .prog-grid,.case-grid,.insight-grid{grid-template-columns:1fr 1fr}
+  .nav ul{display:none}
+  .menu-toggle{display:block}
+  .nav.open ul{display:flex;position:absolute;top:72px;left:0;right:0;background:#fff;flex-direction:column;padding:24px;gap:18px;border-bottom:1px solid var(--line)}
 }
 @media(max-width:600px){
-section{padding:76px 0}
-.hero{padding-top:140px}
-.prog-grid,.case-grid,.insight-grid{grid-template-columns:1fr}
-.ceo{padding:26px}
-.form-card iframe{height:680px}
+  section{padding:76px 0}
+  .hero{padding-top:140px}
+  .prog-grid,.case-grid,.insight-grid{grid-template-columns:1fr}
+  .ceo{padding:26px}
+  .form-card iframe{height:680px}
 }
 </style>
 </head>
 <body>
+
 <!-- ===== NAV ===== -->
 <header id="header">
   <div class="wrap nav" id="nav">
@@ -203,6 +216,7 @@ section{padding:76px 0}
     </div>
   </div>
 </header>
+
 <!-- ===== HERO ===== -->
 <section class="hero" id="top">
   <div class="wrap hero-grid">
@@ -224,6 +238,7 @@ section{padding:76px 0}
     </aside>
   </div>
 </section>
+
 
 <!-- ===== ABOUT ===== -->
 <section class="about" id="about">
@@ -253,6 +268,7 @@ section{padding:76px 0}
     </div>
   </div>
 </section>
+
 <!-- ===== SERVICES ===== -->
 <section id="services">
   <div class="wrap">
@@ -287,6 +303,7 @@ section{padding:76px 0}
     </div>
   </div>
 </section>
+
 <!-- ===== PROGRAMS ===== -->
 <section class="programs" id="programs">
   <div class="wrap">
@@ -347,6 +364,7 @@ section{padding:76px 0}
     </div>
   </div>
 </section>
+
 <!-- ===== CASES ===== -->
 <section id="cases">
   <div class="wrap">
@@ -384,6 +402,7 @@ section{padding:76px 0}
     </div>
   </div>
 </section>
+
 <!-- ===== INSIGHTS ===== -->
 <section id="insights" style="padding-top:0">
   <div class="wrap">
@@ -411,6 +430,7 @@ section{padding:76px 0}
     </div>
   </div>
 </section>
+
 <!-- ===== CONTACT ===== -->
 <section class="contact" id="contact">
   <div class="wrap contact-grid">
@@ -435,6 +455,7 @@ section{padding:76px 0}
     </div>
   </div>
 </section>
+
 <!-- ===== FOOTER ===== -->
 <footer class="site">
   <div class="wrap">
@@ -450,7 +471,9 @@ section{padding:76px 0}
     </div>
   </div>
 </footer>
+
 <a class="btn btn-primary float-cta" href="https://docs.google.com/forms/d/e/1FAIpQLSfky_2y_HdayvRIYDptsrdgaIuQ_l3Nn3VCoenrA29C_hPxNA/viewform?usp=header" target="_blank" rel="noopener">💬 교육 문의</a>
+
 <script>
 // nav shadow on scroll
 const header=document.getElementById('header');
@@ -469,5 +492,6 @@ document.querySelectorAll('.tab').forEach(tab=>tab.addEventListener('click',()=>
     p.style.display=(f==='all'||p.dataset.c===f)?'':'none';
   });
 }));
+</script>
 </body>
 </html>
